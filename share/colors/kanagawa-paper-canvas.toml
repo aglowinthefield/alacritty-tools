@@ -1,0 +1,52 @@
+# -----------------------------------------------------------------------------
+# Kanagawa Paper Canvas  (light)
+#
+# Vendored verbatim from the neovim colorscheme's official Alacritty extra, so
+# the terminal matches `colorscheme kanagawa-paper` exactly:
+#   thesimonho/kanagawa-paper.nvim @ ecf1980  extras/alacritty/
+# Do not hand-tune. Re-copy from the plugin after updating it, otherwise the
+# terminal and editor palettes drift apart.
+#
+# Kept here rather than in themes/ because that directory is a checkout of
+# alacritty/alacritty-theme; a custom file would be foreign to it.
+# -----------------------------------------------------------------------------
+
+[colors.primary]
+background = '#e1e1de'
+foreground = '#73787d'
+
+[colors.cursor]
+cursor = '#7e8faf'
+text = '#e1e1de'
+
+[colors.selection]
+background = '#d4cdd4'
+foreground = '#8e8a80'
+
+[colors.normal]
+black = '#8e8a80'
+red = '#c27672'
+green = '#7b958e'
+yellow = '#a7956a'
+blue = '#809ba7'
+magenta = '#9e7e98'
+cyan = '#7e8faf'
+white = '#aeaea6'
+
+[colors.bright]
+black = '#99958a'
+red = '#c68582'
+green = '#84a098'
+yellow = '#b29f71'
+blue = '#91b0bd'
+magenta = '#a989a3'
+cyan = '#8a9ab8'
+white = '#b6b6ae'
+
+[[colors.indexed_colors]]
+index = 16
+color = '#b28d77'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#c27672'
